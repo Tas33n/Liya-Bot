@@ -1,22 +1,22 @@
 // The trigger word that precedes most commands and will activate the bot
-exports.trigger = "physics";
+exports.trigger = "adsami";
 
 // Bot owner information
 exports.owner = {
     "names": {
-        "short": "Cameron",
-        "long": "Cameron Bernhardt"
+        "short": "Adnan Sami",
+        "long": "Adnan Sami"
     },
-    "id": "100007016509302" // ID of bot owner (for secure commands, reports, and alerts)
+    "id": "100077377375779" // ID of bot owner (for secure commands, reports, and alerts)
 };
 
 // Bot information
 exports.bot = {
     "names": {
-        "short": "AØBøt", // Will be used as 'nickname' in chat (remove if same as account name)
-        "long": "AssumeZero Bot" // Name displayed in profile on bot's Facebook account
+        "short": "Meta Sami", // Will be used as 'nickname' in chat (remove if same as account name)
+        "long": "Meta Sami Bot" // Name displayed in profile on bot's Facebook account
     },
-    "id": "100041587845629" // Bot's ID (for security purposes in commands)
+    "id": "100085108147987" // Bot's ID (for security purposes in commands)
 };
 
 // Location of the bot repo if automatic GitHub webhook deploys are used
@@ -163,8 +163,8 @@ exports.channelMentionRegex = /@@(all|everyone|channel)/i;
 
 // Config to specify where to post new GitHub issues created by the bot
 exports.ghRepo = {
-    owner: 'AstroCB',
-    repo: 'AssumeZero-Bot'
+    owner: 'Adnan Sami',
+    repo: 'Metasami-Bot'
 };
 
 // Amount of time (in seconds) after a scheduled event time that we're allowed to
